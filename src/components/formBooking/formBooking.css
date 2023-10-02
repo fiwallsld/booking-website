@@ -1,0 +1,75 @@
+.form {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.form-info {
+    margin-left: 40px;
+}
+
+h2 {
+    /* margin-bottom: 12px; */
+}
+
+.form-info>label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+.form-info>input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px; 
+}
+
+.form-room {
+    display: flex;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+
+.form-room--info {
+    display: flex;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.form-room--check {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.form-room--checkBox {
+    text-align: center;
+    margin: 0 5px;
+}
+
+.form-room--check>span {
+    display: inline;
+} 
+
+
+.form-pay {
+    display: flex;
+}
+.form-pay--method {
+    margin-right: 28px;
+}
+.form-pay--method>select {
+    height: 32px;
+    padding: 5px;
+}
+
+
+
+
+.rangeDate {
+    width: 100%;
+}
+.date {
+    /* position: absolute;
+    top: 50px; */
+    /* z-index: 2; */
+    display: block;
+    position: inherit;
+  }

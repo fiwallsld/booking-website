@@ -1,0 +1,44 @@
+
+.loginContainer {
+    /* background-image: url('../../img/banner1.jpg'); */
+    background-size: cover;
+    padding: 16px;
+}
+
+.contain {
+    width: 400px;
+    height: 100%;
+    background-color: #c8d9f3;
+    color: #084298;
+    margin: 24px auto;
+    padding: 30px 50px;
+    border-radius: 16px;
+    box-shadow: 3px 5px;
+}
+
+.contain input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+
+.contain input:focus{
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.danger {
+    color: #842029;
+    background-color: #f8d7da;
+    
+}
+
+.textDanger {
+    color: #842029;
+}
+
+.formBtn {
+    width: 100%;
+    padding: 10px 0;
+}
